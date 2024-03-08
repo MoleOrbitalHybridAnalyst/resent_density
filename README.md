@@ -7,7 +7,7 @@ A copy of PySCF for data generation. Not needed for model inference.
 Implementation of the ResNet model for density prediction.
 
 # data/
-Some examples of data and scripts for generate them. Full data will be uploaded elsewhere.
+Some examples of data and scripts for generating them. Full data will be uploaded elsewhere. Filenames with atomh1e indicate the SAD guess density, atomh1e2 indicates the worsened SAD guess, and otherwise means the DFT converged density.
 
 # examples/
 An example of training and an example of inference.
