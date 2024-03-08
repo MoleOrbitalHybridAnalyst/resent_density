@@ -1,0 +1,167 @@
+
+
+******** <class '__main__._RKS'> ********
+method = _RKS-RKS-RHF-SCF-RHF
+initial guess = atom
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-07
+SCF conv_tol_grad = 1e-05
+SCF max_cycles = 200
+direct_scf = False
+chkfile to save SCF result = /home/chhli/projects/machine_learning/data/MT_smearing/Compacted/seed/restarts/inter-1996.restart/tmp7os8daxp
+max_memory 10000 MB (current use 362 MB)
+******** PBC SCF flags ********
+kpt = [0. 0. 0.]
+Exchange divergence treatment (exxdiv) = ewald
+    madelung (= occupied orbital energy shift) = 0.0778687545821537
+    Total energy shift due to Ewald probe charge = -1/2 * Nelec*madelung = -24.606526448
+DF object = <pyscf.pbc.dft.multigrid.multigrid_pair.MultiGridFFTDF2 object at 0x7fa7a36d5f30>
+XC functionals = pbe
+small_rho_cutoff = 1e-07
+
+WARN: ke_cutoff/mesh (200 / [248 226 220]) is not enough for FFTDF to get integral accuracy 1e-06.
+Coulomb integral error is ~ 3e+02 Eh.
+Recommended ke_cutoff/mesh are 1364.12 / [648 591 575].
+
+nelec by numeric integration = 632.000112097693
+init E= -1248.9263443354
+  HOMO = -0.199724317048272  LUMO = -0.0447853661721504
+    sigma = 0.01  Optimized mu = -0.122078776934  entropy = 0.0606928161785
+nelec by numeric integration = 632.0001128092338
+    Total E(T) = -1249.06397324676  Free energy = -1249.06458017492  E0 = -1249.06427671084
+cycle= 1 E= -1249.06397324676  delta_E= -0.138  |g|= 5.64  |ddm|= 31.4
+  HOMO = 0.0626911669322681  LUMO = 0.0694740684687779
+    sigma = 0.01  Optimized mu = 0.0628947630951  entropy = 29.1084146862
+nelec by numeric integration = 632.0001148849534
+    Total E(T) = -1202.27671532955  Free energy = -1202.56779947641  E0 = -1202.42225740298
+cycle= 2 E= -1202.27671532955  delta_E= 46.8  |g|= 25.7  |ddm|=  182
+  HOMO = -0.0252208672876508  LUMO = -0.0108124687877699
+    sigma = 0.01  Optimized mu = -0.0117059026075  entropy = 12.275022679
+nelec by numeric integration = 632.000114562643
+    Total E(T) = -1233.94361502763  Free energy = -1234.06636525442  E0 = -1234.00499014103
+cycle= 3 E= -1233.94361502763  delta_E= -31.7  |g|= 22.3  |ddm|=  179
+  HOMO = -0.0563220786622638  LUMO = -0.0493434473745847
+    sigma = 0.01  Optimized mu = -0.0487755710929  entropy = 5.02239235949
+nelec by numeric integration = 632.0001142182966
+    Total E(T) = -1252.97713037599  Free energy = -1253.02735429959  E0 = -1253.00224233779
+cycle= 4 E= -1252.97713037599  delta_E=  -19  |g|= 5.21  |ddm|= 27.5
+  HOMO = -0.0679670236917528  LUMO = -0.0239123839754964
+    sigma = 0.01  Optimized mu = -0.0459871991887  entropy = 2.08752868837
+nelec by numeric integration = 632.000113906249
+    Total E(T) = -1253.89818103211  Free energy = -1253.91905631899  E0 = -1253.90861867555
+cycle= 5 E= -1253.89818103211  delta_E= -0.921  |g|= 2.19  |ddm|= 7.75
+  HOMO = -0.063942892556256  LUMO = -0.0288004093470945
+    sigma = 0.01  Optimized mu = -0.0431193149884  entropy = 4.07101951797
+nelec by numeric integration = 632.000113901939
+    Total E(T) = -1253.99790202998  Free energy = -1254.03861222516  E0 = -1254.01825712757
+cycle= 6 E= -1253.99790202998  delta_E= -0.0997  |g|= 1.44  |ddm|=  4.8
+  HOMO = -0.0811297023616051  LUMO = -0.0224286471274576
+    sigma = 0.01  Optimized mu = -0.0482772299496  entropy = 1.76670617026
+nelec by numeric integration = 632.0001138994513
+    Total E(T) = -1254.10494517166  Free energy = -1254.12261223336  E0 = -1254.11377870251
+cycle= 7 E= -1254.10494517166  delta_E= -0.107  |g|= 0.894  |ddm|= 3.76
+  HOMO = -0.0660789441034813  LUMO = -0.027489644731749
+    sigma = 0.01  Optimized mu = -0.0469358846259  entropy = 2.82239606131
+nelec by numeric integration = 632.0001139044341
+    Total E(T) = -1254.12938777996  Free energy = -1254.15761174058  E0 = -1254.14349976027
+cycle= 8 E= -1254.12938777996  delta_E= -0.0244  |g|= 0.374  |ddm|= 1.21
+  HOMO = -0.0835042397584438  LUMO = -0.0233318774912665
+    sigma = 0.01  Optimized mu = -0.0499318066893  entropy = 2.21508243254
+nelec by numeric integration = 632.0001139038395
+    Total E(T) = -1254.13689342804  Free energy = -1254.15904425236  E0 = -1254.1479688402
+cycle= 9 E= -1254.13689342804  delta_E= -0.00751  |g|= 0.361  |ddm|= 0.653
+  HOMO = -0.0724871680031895  LUMO = -0.0240081371687363
+    sigma = 0.01  Optimized mu = -0.0480746821053  entropy = 2.5638808986
+nelec by numeric integration = 632.0001139063993
+    Total E(T) = -1254.1393503505  Free energy = -1254.16498915949  E0 = -1254.152169755
+cycle= 10 E= -1254.1393503505  delta_E= -0.00246  |g|= 0.108  |ddm|= 0.377
+  HOMO = -0.0745636468878551  LUMO = -0.0257417283094018
+    sigma = 0.01  Optimized mu = -0.0491992749923  entropy = 2.60908890479
+nelec by numeric integration = 632.0001139053433
+    Total E(T) = -1254.13914146623  Free energy = -1254.16523235527  E0 = -1254.15218691075
+cycle= 11 E= -1254.13914146623  delta_E= 0.000209  |g|= 0.0727  |ddm|= 0.122
+  HOMO = -0.0722369510223037  LUMO = -0.0286973927342202
+    sigma = 0.01  Optimized mu = -0.0496674633703  entropy = 2.97043861815
+nelec by numeric integration = 632.0001139030007
+    Total E(T) = -1254.13490535796  Free energy = -1254.16460974414  E0 = -1254.14975755105
+cycle= 12 E= -1254.13490535796  delta_E= 0.00424  |g|= 0.131  |ddm|= 0.241
+  HOMO = -0.0736483368004589  LUMO = -0.0264502362707699
+    sigma = 0.01  Optimized mu = -0.0494510914633  entropy = 2.72920203777
+nelec by numeric integration = 632.0001139056934
+    Total E(T) = -1254.13815372389  Free energy = -1254.16544574427  E0 = -1254.15179973408
+cycle= 13 E= -1254.13815372389  delta_E= -0.00325  |g|= 0.0231  |ddm|= 0.163
+  HOMO = -0.0745161992910232  LUMO = -0.026649942095406
+    sigma = 0.01  Optimized mu = -0.0497288035335  entropy = 2.67265825858
+nelec by numeric integration = 632.0001139069259
+    Total E(T) = -1254.13867221681  Free energy = -1254.1653987994  E0 = -1254.15203550811
+cycle= 14 E= -1254.13867221681  delta_E= -0.000518  |g|= 0.0364  |ddm|= 0.077
+  HOMO = -0.0737416527649132  LUMO = -0.0266145189434626
+    sigma = 0.01  Optimized mu = -0.0494717414633  entropy = 2.7193371732
+nelec by numeric integration = 632.0001139056993
+    Total E(T) = -1254.13828123122  Free energy = -1254.16547460295  E0 = -1254.15187791709
+cycle= 15 E= -1254.13828123122  delta_E= 0.000391  |g|= 0.00561  |ddm|= 0.0535
+  HOMO = -0.0737298620524347  LUMO = -0.0265513745021915
+    sigma = 0.01  Optimized mu = -0.0494499040174  entropy = 2.71634849486
+nelec by numeric integration = 632.0001139056941
+    Total E(T) = -1254.13831275864  Free energy = -1254.16547624359  E0 = -1254.15189450111
+cycle= 16 E= -1254.13831275864  delta_E= -3.15e-05  |g|= 0.00218  |ddm|= 0.00572
+  HOMO = -0.0737766418128557  LUMO = -0.0265825051799971
+    sigma = 0.01  Optimized mu = -0.0494694965972  entropy = 2.7154455711
+nelec by numeric integration = 632.0001139056831
+    Total E(T) = -1254.13832203302  Free energy = -1254.16547648873  E0 = -1254.15189926088
+cycle= 17 E= -1254.13832203302  delta_E= -9.27e-06  |g|= 0.000874  |ddm|= 0.0035
+  HOMO = -0.0737746488214572  LUMO = -0.0265606991155095
+    sigma = 0.01  Optimized mu = -0.0494625376145  entropy = 2.71482039609
+nelec by numeric integration = 632.0001139057179
+    Total E(T) = -1254.1383283241  Free energy = -1254.16547652807  E0 = -1254.15190242608
+cycle= 18 E= -1254.1383283241  delta_E= -6.29e-06  |g|= 0.000333  |ddm|= 0.00137
+  HOMO = -0.0737979498629063  LUMO = -0.0265645067318485
+    sigma = 0.01  Optimized mu = -0.0494681332641  entropy = 2.71401198132
+nelec by numeric integration = 632.0001139057141
+    Total E(T) = -1254.13833636914  Free energy = -1254.16547648896  E0 = -1254.15190642905
+cycle= 19 E= -1254.13833636914  delta_E= -8.05e-06  |g|= 0.000913  |ddm|= 0.00136
+  HOMO = -0.0737782588766763  LUMO = -0.0265654587439202
+    sigma = 0.01  Optimized mu = -0.0494640740212  entropy = 2.71471002236
+nelec by numeric integration = 632.0001139056927
+    Total E(T) = -1254.1383294323  Free energy = -1254.16547653252  E0 = -1254.15190298241
+cycle= 20 E= -1254.1383294323  delta_E= 6.94e-06  |g|= 0.000128  |ddm|= 0.000888
+  HOMO = -0.0737748556149046  LUMO = -0.0265639449336439
+    sigma = 0.01  Optimized mu = -0.0494629818487  entropy = 2.71480171483
+nelec by numeric integration = 632.0001139056998
+    Total E(T) = -1254.13832851594  Free energy = -1254.16547653309  E0 = -1254.15190252452
+cycle= 21 E= -1254.13832851594  delta_E= 9.16e-07  |g|= 8.88e-05  |ddm|= 0.000246
+  HOMO = -0.0737771133115599  LUMO = -0.0265640087510709
+    sigma = 0.01  Optimized mu = -0.0494636668363  entropy = 2.71475729569
+nelec by numeric integration = 632.0001139056832
+    Total E(T) = -1254.13832896057  Free energy = -1254.16547653353  E0 = -1254.15190274705
+cycle= 22 E= -1254.13832896057  delta_E= -4.45e-07  |g|= 3.86e-05  |ddm|= 9.2e-05
+  HOMO = -0.0737769696849373  LUMO = -0.0265650501019152
+    sigma = 0.01  Optimized mu = -0.0494638657255  entropy = 2.71480993826
+nelec by numeric integration = 632.0001139056601
+    Total E(T) = -1254.13832843441  Free energy = -1254.16547653379  E0 = -1254.1519024841
+cycle= 23 E= -1254.13832843441  delta_E= 5.26e-07  |g|= 2.22e-05  |ddm|= 6.4e-05
+  HOMO = -0.0737763666374418  LUMO = -0.0265647334515158
+    sigma = 0.01  Optimized mu = -0.0494635937459  entropy = 2.71481151113
+nelec by numeric integration = 632.0001139056959
+    Total E(T) = -1254.13832841836  Free energy = -1254.16547653347  E0 = -1254.15190247591
+cycle= 24 E= -1254.13832841836  delta_E= 1.61e-08  |g|= 2.06e-05  |ddm|= 3.71e-05
+  HOMO = -0.0737765267745482  LUMO = -0.0265644492240442
+    sigma = 0.01  Optimized mu = -0.0494635733547  entropy = 2.71478396113
+nelec by numeric integration = 632.0001139056836
+    Total E(T) = -1254.138328694  Free energy = -1254.16547653362  E0 = -1254.15190261381
+cycle= 25 E= -1254.138328694  delta_E= -2.76e-07  |g|= 1.25e-05  |ddm|= 2.42e-05
+  HOMO = -0.0737767916705699  LUMO = -0.0265647038994641
+    sigma = 0.01  Optimized mu = -0.0494637121742  entropy = 2.71478927761
+nelec by numeric integration = 632.0001139056823
+    Total E(T) = -1254.13832864066  Free energy = -1254.16547653343  E0 = -1254.15190258705
+cycle= 26 E= -1254.13832864066  delta_E= 5.33e-08  |g|= 5.87e-06  |ddm|= 1.75e-05
+  HOMO = -0.0737763840514406  LUMO = -0.0265643251911337
+    sigma = 0.01  Optimized mu = -0.0494635221084  entropy = 2.71479310355
+nelec by numeric integration = 632.000113905676
+    Total E(T) = -1254.13832860249  Free energy = -1254.16547653352  E0 = -1254.151902568
+Extra cycle  E= -1254.13832860249  delta_E= 3.82e-08  |g|= 2.25e-05  |ddm|= 3.6e-05
+converged SCF energy = -1254.13832860249
