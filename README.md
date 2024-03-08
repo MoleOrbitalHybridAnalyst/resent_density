@@ -11,3 +11,6 @@ Some examples of data and scripts for generating them. Full data will be uploade
 
 # examples/
 An example of training and an example of inference.
+
+# Pre-trained Models
+Pre-trained models are available at doi.org/10.6084/m9.figshare.25365508.
