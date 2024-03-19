@@ -14,3 +14,7 @@ An example of training and an example of inference.
 
 # Pre-trained Models
 Pre-trained models are available at doi.org/10.6084/m9.figshare.25365508.
+
+# Software Dependencies
+All training and prediction were run with PyTorch 1.11.0, Python 3.10.10 on Ubuntu 22.04.3 LTS.
+All data generation was performed with PySCF (see software/pyscf), NumPy 1.24.2, SciPy 1.8.0, H5py 3.8.0 and Python 3.10.4 on Fedora 7.2 (Maipo).
