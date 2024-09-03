@@ -7,10 +7,10 @@ A copy of PySCF for data generation. Not needed for model inference.
 Implementation of the ResNet model for density prediction.
 
 # data/
-Some examples of data and scripts for generating them. Filenames with atomh1e indicate the SAD guess density, atomh1e2 indicates the worsened SAD guess, and otherwise means the DFT converged density.\
-Full data are available at\
-(1) Li, C., Sharir, O., Yuan, S., & Chan, G. K. (2024). QM9 DFT Electron Density [Data set]. CaltechDATA. https://doi.org/10.22002/7vr2f-0r732\
-(2) Li, C., Sharir, O., Yuan, S., & Chan, G. K. (2024). C7O2H10 Isomer DFT Electron Density [Data set]. CaltechDATA. https://doi.org/10.22002/04d1z-1d608\
+Some examples of data and scripts for generating them. Filenames with atomh1e indicate the SAD guess density, atomh1e2 indicates the worsened SAD guess, and otherwise means the DFT converged density. \
+Full data are available at \
+(1) Li, C., Sharir, O., Yuan, S., & Chan, G. K. (2024). QM9 DFT Electron Density [Data set]. CaltechDATA. https://doi.org/10.22002/7vr2f-0r732 \
+(2) Li, C., Sharir, O., Yuan, S., & Chan, G. K. (2024). C7O2H10 Isomer DFT Electron Density [Data set]. CaltechDATA. https://doi.org/10.22002/04d1z-1d608 \
 (3) Li, C., Sharir, O., Yuan, S., & Chan, G. K. (2024). GTP-in-Microtubule DFT Electron Density [Data set]. CaltechDATA. https://doi.org/10.22002/v5tec-g6p43
 
 # examples/
