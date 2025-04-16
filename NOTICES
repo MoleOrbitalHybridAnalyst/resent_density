@@ -1,0 +1,12 @@
+NOTICES
+=======
+
+This software incorporates components from other projects with different licensing terms.
+
+1. software/resnet
+   Licensed under the MIT License.
+   See LICENSE file for the full MIT license text.
+
+2. software/pyscf
+   Licensed under the Apache License, Version 2.0.
+   See software/pyscf/LICENSE for the full license text.
