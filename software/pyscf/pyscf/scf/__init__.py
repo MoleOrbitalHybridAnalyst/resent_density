@@ -117,7 +117,6 @@ from pyscf.scf import diis
 from pyscf.scf.diis import DIIS, CDIIS, EDIIS, ADIIS
 from pyscf.scf.uhf import spin_square
 from pyscf.scf.hf import get_init_guess
-from pyscf.scf import dualbase_hf 
 from pyscf.scf.addons import *
 
 
